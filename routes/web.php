@@ -12,5 +12,6 @@ Route::get('/', function () {
 })->name('landing');
 
 Route::get('/prisoner', [Admin\PrisonerController::class, 'index'])->name('prisonIndex');
+Route::get('/dashboard',[Controllers\DashboardController::class,'index'] )->name('dashboard');
 
 Route::get('/home', [Controllers\HomeController::class, 'index'])->name('home');
