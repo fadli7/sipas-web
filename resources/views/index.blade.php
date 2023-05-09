@@ -40,14 +40,15 @@
                 <div class="header">
                     <nav class="navbar navbar-expand-md navbar-light px-0">
                         <a class="navbar-brand" href="#">
-                            <img src="{{ asset('assets/images/logo-icon.png') }}"
+                            {{-- <img src="{{ asset('assets/images/logo-icon.png') }}"
                                 alt="logo">
                             <span class="ml-2">
                                 <img src="{{ asset('../assets/images/logo-text.png') }}"
                                     alt="logo">
-                            </span>
+                            </span> --}}
+                            SIPAS WEB
                         </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        {{-- <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -63,7 +64,7 @@
                                         class="btn btn-custom btn-info btn-lg" target="_blank">Check Pro Version</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> --}}
                     </nav>
                 </div>
                 <!-- End Header -->
@@ -83,18 +84,19 @@
                 <div class="container">
                     <div class="row justify-content-md-center pt-5">
                         <div class="col-md-9 text-center">
-                            <h2 class="text-dark">Create Stunning User Inteface for your <span
+                            {{-- <h2 class="text-dark">Create Stunning User Inteface for your <span
                                     class="font-weight-bold">Applications</span>
                                 & <span class="font-weight-bold">Products</span> with <span
                                     class="border-bottom border-dark">
-                                    Flexy Admin</span></h2>
+                                    Flexy Admin</span></h2> --}}
+                            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever si</h2>
                         </div>
                     </div>
                     <div class="row py-5">
                         <!-- ============================================================== -->
                         <!-- Lite Demo -->
                         <!-- ============================================================== -->
-                        <div class="col-md-6">
+                        {{-- <div class="col-md-6">
                             <div class="card p-2 mr-1">
                                 <div class="card-body p-4">
                                     <div class="text-center">
@@ -164,11 +166,22 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- ============================================================== -->
                         <!-- Pro Demo -->
                         <!-- ============================================================== -->
-                        <div class="col-md-6">
+                        <div class="navbar-nav align-items-center">
+                            <div class="nav-item d-flex align-items-center">
+                              <i class="bx bx-search fs-4 lh-0"></i>
+                              <input
+                                type="text"
+                                class="form-control border-0 shadow-none"
+                                placeholder="Search..."
+                                aria-label="Search..."
+                              />
+                            </div>
+                        </div>
+                        {{-- <div class="col-md-6">
                             <div class="card pro-demo p-2 ml-1">
                                 <div class="card-body p-4">
                                     <div class="text-center">
@@ -247,7 +260,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </section>

@@ -8,8 +8,18 @@ use Illuminate\Http\Request;
 class PrisonerController extends Controller
 {
     public function index() {
-        $test = 'test';
+        return view('admins.prisoner.index');
+    }
 
-        return view('admins.prisoner', compact(['test']));
+    public function create() {
+        return view('admins.prisoner.create');
+    }
+
+    public function detail() {
+        return view('admins.prisoner.detail');
+    }
+
+    public function edit() {
+        return view('admins.prisoner.edit');
     }
 }
